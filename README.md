@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/sub-scout-logo1.png" alt="httpx" width="400px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/sub-scout-logo1.png" alt="sub-scout" width="400px"></a>
   <br>
 </h1>
 
@@ -8,7 +8,7 @@
 A simple bash script to automate your inital recon and extend your attack surface using popular tools made by infosec community.
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/0xAkashsky/sub-scout/main/carbon.png?token=GHSAT0AAAAAAB43VXHFR3OHH6X7GZQDRBFGY5UIVXQ" alt="httpx" width="700px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/carbon.png" alt="httpx" width="700px"></a>
   <br>
 </h1>
 
@@ -25,3 +25,23 @@ A simple bash script to automate your inital recon and extend your attack surfac
  - Runs Katana on resolved domains.
  - Collect Javascript files by Combining wayback and katana output
  - Check live Javascript files using httpx
+
+# Prerequisite
+ - Go [https://go.dev/doc/install]
+ - Regulator [https://github.com/cramppet/regulator]
+ - PureDns   [https://github.com/d3mondev/puredns]
+ - httpx     [https://github.com/projectdiscovery/httpx]
+ - Aquatone  [https://github.com/michenriksen/aquatone]
+ - Waybackurls [https://github.com/tomnomnom/waybackurls]
+ - Katana    [https://github.com/projectdiscovery/katana]
+ - MassDns   [https://github.com/blechschmidt/massdns]
+
+Sub-scout does not installs these tools automatically. Manually install All tools and make sure they are available in '/usr/bin'
+
+# How to Run
+
+Just Download the bash file 'sub-scout.sh' in Regulator folder.
+
+Give permission '$ chmod +x sub-scout.sh'
+
+Run using 'bash sub-scout.sh'
