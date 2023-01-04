@@ -44,4 +44,20 @@ Just Download the bash file 'sub-scout.sh' in Regulator folder.
 
 Give permission '$ chmod +x sub-scout.sh'
 
-Run using 'bash sub-scout.sh'
+Run using 'bash sub-scout.sh known_subdomain_list.txt scope.txt /output_directory/'
+
+# Parameters
+
+known_subdomain_list.txt = Know Subdomain list path that you got form subdomain enumeration tools like 'Amass' 'Subfinder'
+
+scope.txt = Enter the in-scope domains file path. like for yahoo program 'yahoo.com' 'aol.com' in a text file.
+<h1 align="left">
+  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/carbon.png" alt="httpx" width="400px"></a>
+  <br>
+</h1>
+
+/output-directory/ = Enter the directory path you want to save all outputs too. (Ouput Directory should be created Already) 
+
+Note: Filenames does not need to be 'scope.txt' or  'known_subdomain_list.txt' it can be anything just write the correct path of the files in parameters.
+
+
