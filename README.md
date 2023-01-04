@@ -1,14 +1,12 @@
 <h1 align="center">
-  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/sub-scout-logo1.png" alt="sub-scout" width="400px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/sub-scout-logo1.png" alt="sub-scout" width="400px"></a>
   <br>
 </h1>
-
-# sub-scout
 
 A simple bash script to automate your inital recon and extend your attack surface using popular tools made by infosec community.
 
 <h1 align="center">
-  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/carbon.png" alt="httpx" width="700px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/carbon.png" alt="httpx" width="700px"></a>
   <br>
 </h1>
 
@@ -36,7 +34,7 @@ A simple bash script to automate your inital recon and extend your attack surfac
  - Katana    [https://github.com/projectdiscovery/katana]
  - MassDns   [https://github.com/blechschmidt/massdns]
 
-Sub-scout does not installs these tools automatically. Manually install All tools and make sure they are available in '/usr/bin'
+Sub-scout does not installs these tools automatically. Manually install all tools and make sure they are available in '/usr/bin'
 
 # How to Run
 
@@ -52,7 +50,7 @@ known_subdomain_list.txt = Know Subdomain list path that you got form subdomain 
 
 scope.txt = Enter the in-scope domains file path. like for yahoo program 'yahoo.com' 'aol.com' in a text file.
 <h1 align="left">
-  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/carbon.png" alt="httpx" width="400px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/scope-example.png" alt="httpx" width="400px"></a>
   <br>
 </h1>
 
@@ -60,4 +58,8 @@ scope.txt = Enter the in-scope domains file path. like for yahoo program 'yahoo.
 
 Note: Filenames does not need to be 'scope.txt' or  'known_subdomain_list.txt' it can be anything just write the correct path of the files in parameters.
 
+# Personal Note
 
+I am not a programmer so there could be thousand different ways to do this proccess in more optimize and better way. I made this bash script to automate regulator tool according to scope from my recon purpose. regulator is a great tool to make permutation subdomain list and fast than altdns. 
+
+Credits to all infosec tools mentioned above in Prerequisite section.
