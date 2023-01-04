@@ -6,7 +6,7 @@
 A simple bash script to automate your inital recon and extend your attack surface using popular tools made by infosec community.
 
 <h1 align="center">
-  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/carbon.png" alt="httpx" width="700px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/carbon.png" alt="sub-scout" width="700px"></a>
   <br>
 </h1>
 
@@ -50,13 +50,19 @@ known_subdomain_list.txt = Know Subdomain list path that you got form subdomain 
 
 scope.txt = Enter the in-scope domains file path. like for yahoo program 'yahoo.com' 'aol.com' in a text file.
 <h1 align="left">
-  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/scope-example.png" alt="httpx" width="400px"></a>
+  <img src="https://github.com/0xAkashsky/sub-scout/blob/main/static/scope-example.png" alt="sub-scout" width="400px"></a>
   <br>
 </h1>
 
 /output-directory/ = Enter the directory path you want to save all outputs too. (Ouput Directory should be created Already) 
 
 Note: Filenames does not need to be 'scope.txt' or  'known_subdomain_list.txt' it can be anything just write the correct path of the files in parameters.
+
+# Workflow
+<h1 align="left">
+  <img src="https://github.com/0xAkashsky/sub-scout/raw/main/static/workflow.jpg" alt="sub-scout" width="600px"></a>
+  <br>
+</h1>
 
 # Personal Note
 
