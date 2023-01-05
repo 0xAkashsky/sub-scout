@@ -37,12 +37,13 @@ A simple bash script to automate your inital recon and extend your attack surfac
 Sub-scout does not installs these tools automatically. Manually install all tools and make sure they are available in '/usr/bin'
 
 # How to Run
-
+```
 Just Download the bash file 'sub-scout.sh' in Regulator folder.
 
 Give permission '$ chmod +x sub-scout.sh'
 
 Run using 'bash sub-scout.sh known_subdomain_list.txt scope.txt /output_directory/'
+```
 
 # Parameters
 
