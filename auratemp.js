@@ -3,7 +3,7 @@ let i = 1;
 const intervalId = setInterval(() => {
   console.log(i);
   if (i === 100) {
-    clearInterval(intervalId);
+    clearInterval(intervalIds);
   }
   i++;
 }, 5000);
