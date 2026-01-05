@@ -7,4 +7,4 @@ const intervalId = setInterval(() => {
   }
   i++;
   https://raw.githubusercontent.com/0xAkashsky/sub-scout/refs/heads/main/aurawatch2.js
-}, 15000);
+}, 25000);
